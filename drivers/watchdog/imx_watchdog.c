@@ -11,9 +11,6 @@
 #include <fsl_wdog.h>
 
 #define CONFIG_IMX_WATCHDOG
-#ifdef CONFIG_IMX_WATCHDOG
-argh
-#endif
 
 #ifdef CONFIG_IMX_WATCHDOG
 void hw_watchdog_reset(void)
